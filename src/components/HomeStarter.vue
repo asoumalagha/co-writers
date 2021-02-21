@@ -29,7 +29,7 @@ export default {
 
 .home-starter {
     text-align: justify;
-    background-color: #0c182e;
+    background-color:  #162644;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -52,7 +52,7 @@ export default {
     font-size: 50px;
 }
 .subslogan {
-    font-size: 20px;
+    font-size: 25px;
 }
 .logo{
   display: block;

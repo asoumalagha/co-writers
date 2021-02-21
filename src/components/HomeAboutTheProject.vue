@@ -89,7 +89,7 @@ export default {
 @media (max-width:960px) {
      .text {
          padding-right: 30px;
-         font-size: 20px;
+         font-size: 25px;
      }
      .logo {
          margin-top: 10px;

@@ -6,7 +6,7 @@
             <div><img class="mb-5 divider" src="@/assets/1.1.png"/> </div>
             <div justify-center align-left class="text mt-5 content">A Collaborative Writing a szerepjáték kultúra azon szegmense, ahol nemcsak átélheted a kalandokat, hanem kreatív alkotóként te magad létrehozhatod és alakíthatod is őket.</div>
             <div justify-center align-left class="text mt-2 content">A collaborative writing nem más, mint egy közösségi kreatív felület, ahol csapattagjaiddal közösen álmodhatjátok meg saját világaitokat és benne karaktereiteket.</div>
-            <div justify-center align-left class="text mt-5 content"> Fiktív hőseitek élnek, éreznek és akár összetett személyiségrendszerrel is felruházhatjátok őket, hogy minél szervesebb részévé válhassanak történeteiteknek.</div>
+            <div justify-center align-left class="text mt-5 content"> Fiktív hőseitek élnek, éreznek és akár összetett személyiséggel is felruházhatjátok őket, hogy minél szervesebb részévé válhassanak történeteiteknek.</div>
             <div justify-center align-left class="text mt-2 content"> Az alapvető szabályok betartása mellett e karaktert vezethetitek végig kalandjai útján közösségi írás formájában. A lényeg, légy kreatív, add önmagad és tiszteld a többieket!</div>
             <v-btn small fab class="mt-5 white">
             <a href="#home-about-us"><v-icon large color="indigo darken-4">expand_more</v-icon></a>
@@ -30,7 +30,7 @@ export default {
 
 .home-details {
     text-align: justify;
-    background-color:  #0c182e;
+    background-color:  #162644;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -54,7 +54,7 @@ export default {
     font-size: 50px;
 }
 .content {
-    font-size: 20px;
+    font-size: 25px;
 }
 .logo{
   display: block;

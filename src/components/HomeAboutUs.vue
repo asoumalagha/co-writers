@@ -100,5 +100,6 @@ export default {
 .abount-us-content{
     max-height: 500px;
     font-size: 18px;
+    text-align:justify;
 }
 </style>
