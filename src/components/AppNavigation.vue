@@ -19,7 +19,7 @@
         <v-app-bar-nav-icon id="nav-icon" class="hidden-md-and-up" @click="drawer = !drawer" ></v-app-bar-nav-icon>
         <v-spacer class="hidden-md-and-up"></v-spacer>
         <v-toolbar-title class="mr-40"> <img class="logo" src="@/assets/fehér.png"/> </v-toolbar-title>
-        <v-spacer class="hidden-sm-and-down"><a href="#home-about-the-project">A projectről</a></v-spacer>
+        <v-spacer class="hidden-sm-and-down"><a href="#home-about-the-project">A projekt</a></v-spacer>
         <v-spacer class="hidden-sm-and-down"><a href="#home-details">A játékról</a></v-spacer>
         <v-spacer class="hidden-sm-and-down"><a href="#home-about-us">Rólunk</a></v-spacer>
         <v-spacer class="hidden-sm-and-down"><a href="#home-contact">Kapcsolat</a></v-spacer>
@@ -35,7 +35,7 @@ export default {
             appTitle: 'CoWriters Test',
             drawer: false,
             items: [
-                { title: 'A projectről', link:'home-about-the-project' },
+                { title: 'A projekt', link:'home-about-the-project' },
                 { title: 'A játékról', link:'home-details' },
                 { title: 'Rólunk', link: 'home-about-us'},
                 { title: 'Kapcsolat', link: 'home-contact' }

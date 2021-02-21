@@ -60,12 +60,5 @@ export default {
     text-decoration: none;
   }
 
-@media (max-width:1263px) {
-     .logo {
-         margin-top: 20%;
-     }
-}
-
-
 
 </style>

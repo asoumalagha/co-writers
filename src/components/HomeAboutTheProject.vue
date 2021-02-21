@@ -1,7 +1,7 @@
 <template >
     <v-container fluid fill-height class="home-about-the-project">
         <v-layout row>
-            <v-flex xs12 class=" ml-15 pt-13 about-the-project-title"><h3>A projectről</h3></v-flex>
+            <v-flex xs12 class=" pt-13 about-the-project-title"><h3>A projekt</h3></v-flex>
         </v-layout>
         <v-layout row wrap>
             <v-flex xs12 sm12 md6 lg3>
@@ -38,9 +38,9 @@ export default {
 
 
 .about-the-project-title{
+    padding-left: 65px;
     color: white;
     font-weight: bold;
-    text-align: justify;
     text-align: left;
     font-size: 50px;
 }
@@ -69,20 +69,13 @@ export default {
     font-weight: bold;
     color: white;
 }
-.slogan {
-    text-align: left;
-    font-size: 50px;
-}
-.subslogan {
-    font-size: 20px;
-}
 
 .logo{
       margin-bottom: 30px;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 40%;
+      width: 70%;
       height: auto;
       background-color: transparent;
 }
@@ -96,6 +89,15 @@ export default {
 @media (max-width:960px) {
      .text {
          padding-right: 30px;
+         font-size: 20px;
+     }
+     .logo {
+         margin-top: 10px;
+         width: 40%;
+     }
+     .about-the-project-title{
+         padding-left: 0px;
+         text-align: center;
      }
 }
 
