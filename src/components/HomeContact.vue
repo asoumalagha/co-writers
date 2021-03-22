@@ -7,7 +7,8 @@
             <v-flex xs12 sm12 md6 lg6>
                 <h3 class="pt-13 contact-title">Kapcsolat</h3>
                 <div class="pt-13 icons">
-                    <a target="_blank" href="https://www.facebook.com/CoWriters.Hungary/"><font-awesome-icon class="mr-6" :icon="{ prefix: 'fab', iconName: 'facebook' }"/> </a>
+                    <a target="_blank" href="https://anchor.fm/vivien-farkas1"><font-awesome-icon icon="podcast"/></a>
+                    <a target="_blank" href="https://www.facebook.com/CoWriters.Hungary/"><font-awesome-icon class="mr-6 ml-6" :icon="{ prefix: 'fab', iconName: 'facebook' }"/> </a>
                     <a target="_blank" href="https://www.linkedin.com/company/cowriters"><font-awesome-icon class="mr-6" :icon="{ prefix: 'fab', iconName: 'linkedin' }"/> </a>
                     <a target="_blank" href="mailto:hello@co-writers.eu"><font-awesome-icon icon="envelope"/></a>
                 </div>

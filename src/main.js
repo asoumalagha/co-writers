@@ -7,7 +7,7 @@ import "@babel/polyfill";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faPodcast } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faFacebook);
@@ -15,6 +15,8 @@ library.add(faFacebook);
 library.add(faLinkedin);
 
 library.add(faEnvelope);
+
+library.add(faPodcast);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 

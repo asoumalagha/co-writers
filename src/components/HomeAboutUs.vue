@@ -6,22 +6,22 @@
         <v-layout row wrap>
 
 
-            <v-flex xs12 sm12 md6 lg3>
+            <v-flex xs12 sm12 md4>
                 <v-card>
-                    <v-img src='~@/assets/AlaghaAsoum.jpg' height="500px"></v-img>
+                    <v-img src='~@/assets/Asoum.png' height="500px"></v-img>
                     <v-card-text height="500px">
                         <div class="abount-us-content" height="500px">
-                            <h3 class=" mb-8">Al-Agha Asoum</h3>
-                            <div>Az életem legnagyobb részében játszom. A társasjátékoktól kezdve az asztali- és jelmezes szerepjátékokon át minden érdekel, és szerencsére a webfejlesztés, mint szakmám is teret enged az önfeledt kísérletezésnek. A CoWriters számomra az a 'szeretem' project, ami inspirál, felpörget és kreatívvá tesz.
+                            <h3 class=" mb-2">Al-Agha Asoum</h3>
+                            <div>Az életem legnagyobb részében játszom. A társasjátékoktól kezdve az asztali- és jelmezes szerepjátékokon át minden érdekel, és szerencsére a webfejlesztés, mint szakmám is teret enged az önfeledt kísérletezésnek. A CoWriters számomra az a 'szeretem' project, ami inspirál, felpörget és kreatívvá tesz. Ötletgazdaként és termékfejlesztőként veszek részt a csapat munkájában.
                             </div>
                         </div>
                     </v-card-text>
                 </v-card>
             </v-flex>
 
-            <v-flex xs12 sm12 md6 lg3>
+            <v-flex xs12 sm12 md4>
                 <v-card>
-                    <v-img src='~@/assets/MakoviBibor.jpg' height="500px"></v-img>
+                    <v-img src='~@/assets/Bibor.png' height="500px"></v-img>
                     <v-card-text height="500px">
                         <div class="abount-us-content" height="500px">
                             <h3 class=" mb-2">Makovi Bíbor</h3>
@@ -32,9 +32,9 @@
                 </v-card>
             </v-flex>
 
-            <v-flex xs12 sm12 md6 lg3>
+            <v-flex xs12 sm12 md4>
                 <v-card>
-                    <v-img src='~@/assets/FarkasVivien.jpg' height="500px"></v-img>
+                    <v-img src='~@/assets/Vivi.png' height="500px"></v-img>
                     <v-card-text height="500px">
                         <div class="abount-us-content" height="500px">
                             <h3 class="mb-2">Farkas Vivien</h3>
@@ -45,25 +45,10 @@
                 </v-card>
             </v-flex>
 
-
-
-
-            <v-flex xs12 sm12 md6 lg3>
-                <v-card>
-                    <v-img src='~@/assets/VargaDora.jpg' height="500px"></v-img>
-                    <v-card-text height="500px">
-                        <div class="abount-us-content" height="500px">
-                            <h3 class=" mb-2">Varga Dóra</h3>
-                            <div>Varga Dóra vagyok, jelenleg Kommunikáció-és médiatudomány szakon tanulok a Budapesti Metropolitan Egyetemen. Szakdolgozatomban a szerepelméleteket és a szerepjáték pszichológiáját kutatom. Az ehhez kapcsolódó terepmunkám során csatlakoztam Vivien Ulver felkérésére a CoWriters csapatához.
-                            </div>
-                        </div>
-                    </v-card-text>
-                </v-card>
-            </v-flex>
         </v-layout>
         <v-layout justify-center align-center column pa-5>
             <v-btn small fab class="mt-5 grey darken-3">
-                <a href="#home-contact"><v-icon large color="white">expand_more</v-icon></a>
+                <a href="#home-podcast"><v-icon large color="white">expand_more</v-icon></a>
             </v-btn>
         </v-layout>
     </v-container>
